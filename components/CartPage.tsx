@@ -31,8 +31,9 @@ const CartPage = () => {
             alt='empty-cart'
             width={200}
             height={200}
+            className='max-sm:w-[100px] max-sm:h-[100px]'
           />
-          <h1 className='text-2xl font-bold text-[#704A24]'>
+          <h1 className='text-2xl font-bold text-[#704A24] max-sm:text-lg text-center max-sm:px-10'>
             Your cart is empty, Please add some items to your cart to proceed.
           </h1>
         </div>
