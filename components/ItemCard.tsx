@@ -36,9 +36,7 @@ const ItemCard = ({ dish }: { dish: Dish }) => {
           <p className='font-medium text-[#1C140C] text-sm overflow-hidden text-ellipsis whitespace-nowrap'>
             {dish.dishName}
           </p>
-          <p className='font-semibold text-[#1C140C] text-sm'>
-            ${dish.price}
-          </p>
+          <p className='font-semibold text-[#1C140C] text-sm'>${dish.price}</p>
         </div>
         <div className='flex items-center gap-1'>
           {' '}

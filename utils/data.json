@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "dishName": "Chocolate and cream layered cake portion",
     "category": "cake",
     "price": 15.99,
@@ -7,6 +8,7 @@
     "imgSrc": "/assets/cake/choco-cream-cake-por.jpg"
   },
   {
+    "id": 2,
     "dishName": "Chocolate and cream layered cake",
     "category": "cake",
     "price": 20.99,
@@ -14,6 +16,7 @@
     "imgSrc": "/assets/cake/choco-cream-cake.jpg"
   },
   {
+    "id": 3,
     "dishName": "Chocolate layered cake portion with strawberries",
     "category": "cake",
     "price": 18.99,
@@ -21,6 +24,7 @@
     "imgSrc": "/assets/cake/choco-straw.jpg"
   },
   {
+    "id": 4,
     "dishName": "Peach big cake with fruits and chocolate",
     "category": "cake",
     "price": 30.99,
@@ -28,6 +32,7 @@
     "imgSrc": "/assets/cake/peach.jpg"
   },
   {
+    "id": 5,
     "dishName": "Late art cup",
     "category": "coffee",
     "price": 1.99,
@@ -35,6 +40,7 @@
     "imgSrc": "/assets/coffee/late.jpg"
   },
   {
+    "id": 6,
     "dishName": "Strong americano coffee",
     "category": "coffee",
     "price": 2.99,
@@ -42,6 +48,7 @@
     "imgSrc": "/assets/coffee/americano.jpg"
   },
   {
+    "id": 7,
     "dishName": "Cinnamon late art cup",
     "category": "coffee",
     "price": 2.99,
@@ -49,6 +56,7 @@
     "imgSrc": "/assets/coffee/cinamon.jpg"
   },
   {
+    "id": 8,
     "dishName": "Iced coffee and milk",
     "category": "coffee",
     "price": 3.99,
@@ -56,6 +64,7 @@
     "imgSrc": "/assets/coffee/iced.jpg"
   },
   {
+    "id": 9,
     "dishName": "Box of mixed donuts (5 pieces)",
     "category": "donuts",
     "price": 12.99,
@@ -63,6 +72,7 @@
     "imgSrc": "/assets/donut/box-6.jpg"
   },
   {
+    "id": 10,
     "dishName": "Box of chocolate donuts (8 pieces)",
     "category": "donuts",
     "price": 15.99,
@@ -70,6 +80,7 @@
     "imgSrc": "/assets/donut/box-choco.jpg"
   },
   {
+    "id": 11,
     "dishName": "Spongy donut with chips",
     "category": "donuts",
     "price": 1.99,
@@ -77,6 +88,7 @@
     "imgSrc": "/assets/donut/choco.jpg"
   },
   {
+    "id": 12,
     "dishName": "Strawberry donut",
     "category": "donuts",
     "price": 1.99,
@@ -84,6 +96,7 @@
     "imgSrc": "/assets/donut/strawberry.jpg"
   },
   {
+    "id": 13,
     "dishName": "Choco custard pie",
     "category": "custard pie",
     "price": 2.99,
@@ -91,6 +104,7 @@
     "imgSrc": "/assets/custard/choco-pie.jpg"
   },
   {
+    "id":14 ,
     "dishName": "Pineapple custard pie",
     "category": "custard pie",
     "price": 2.99,
@@ -98,6 +112,7 @@
     "imgSrc": "/assets/custard/pineapple-pie.jpg"
   },
   {
+    "id": 15,
     "dishName": "Entire pineapple pie",
     "category": "custard pie",
     "price": 15.99,
@@ -105,6 +120,7 @@
     "imgSrc": "/assets/custard/pineapple.jpg"
   },
   {
+    "id": 16,
     "dishName": "Fluffy vanilla and red fruits pie portion",
     "category": "custard pie",
     "price": 1.99,
@@ -112,6 +128,7 @@
     "imgSrc": "/assets/custard/vanilla.jpg"
   },
   {
+    "id": 17,
     "dishName": "Creamy berries pie portion",
     "category": "custard pie",
     "price": 1.99,
@@ -119,6 +136,7 @@
     "imgSrc": "/assets/custard/red-pie.jpg"
   },
   {
+    "id": 18,
     "dishName": "Box of chocolate cupcakes with cherries",
     "category": "cupcakes",
     "price": 15.99,
@@ -126,6 +144,7 @@
     "imgSrc": "/assets/cupcake/choco-box.jpg"
   },
   {
+    "id": 19,
     "dishName": "Box of mixed cupcakes with cherries",
     "category": "cupcakes",
     "price": 16.99,
@@ -133,6 +152,7 @@
     "imgSrc": "/assets/cupcake/box.jpg"
   },
   {
+    "id": 20,
     "dishName": "Mini chocolate cupcakes with cream",
     "category": "cupcakes",
     "price": 1.99,
@@ -140,6 +160,7 @@
     "imgSrc": "/assets/cupcake/mini-choco.jpg"
   },
   {
+    "id": 21,
     "dishName": "Chocolate cupcakes with cream and fruits",
     "category": "cupcakes",
     "price": 1.99,
@@ -147,6 +168,7 @@
     "imgSrc": "/assets/cupcake/choco.jpg"
   },
   {
+    "id": 22,
     "dishName": "Vanilla cupcakes with cream",
     "category": "cupcakes",
     "price": 1.99,
@@ -154,6 +176,7 @@
     "imgSrc": "/assets/cupcake/vanilla.jpg"
   },
   {
+    "id": 23,
     "dishName": "Croissant with red fruits",
     "category": "croissant",
     "price": 1.99,
@@ -161,6 +184,7 @@
     "imgSrc": "/assets/croissant/red.jpg"
   },
   {
+    "id": 24,
     "dishName": "Chocolate croissant",
     "category": "croissant",
     "price": 2.99,
@@ -168,6 +192,7 @@
     "imgSrc": "/assets/croissant/choco.jpg"
   },
   {
+    "id": 25,
     "dishName": "Jam croissant sandwich",
     "category": "croissant",
     "price": 1.99,
@@ -175,6 +200,7 @@
     "imgSrc": "/assets/croissant/jam.jpg"
   },
   {
+    "id": 26,
     "dishName": "Plain croissant",
     "category": "croissant",
     "price": 1.99,
@@ -182,6 +208,7 @@
     "imgSrc": "/assets/croissant/plain.jpg"
   },
   {
+    "id":27 ,
     "dishName": "Raisin croissant",
     "category": "croissant",
     "price": 1.99,
@@ -189,6 +216,7 @@
     "imgSrc": "/assets/croissant/raisin.jpg"
   },
   {
+    "id": 28,
     "dishName": "Macaron box double stuffed(8 pieces)",
     "category": "cookies",
     "price": 15.99,
@@ -196,6 +224,7 @@
     "imgSrc": "/assets/cookies/cookies-8-box.jpeg"
   },
   {
+    "id": 29,
     "dishName": "Macaron box single stuffed(12 pieces)",
     "category": "cookies",
     "price": 12.99,
@@ -203,6 +232,7 @@
     "imgSrc": "/assets/cookies/cookies-12-box.jpeg"
   },
   {
+    "id": 30,
     "dishName": "Cookies with chocolate chips",
     "category": "cookies",
     "price": 1.99,
@@ -210,6 +240,7 @@
     "imgSrc": "/assets/cookies/cookies-choco.jpeg"
   },
   {
+    "id": 31,
     "dishName": "Cinamon cookies box(8 pieces)",
     "category": "cookies",
     "price": 12.99,
@@ -217,6 +248,7 @@
     "imgSrc": "/assets/cookies/cookies-cinamon-8.jpeg"
   },
   {
+    "id": 32,
     "dishName": "Cinamon cookies box(12 pieces)",
     "category": "cookies",
     "price": 15.99,
@@ -224,6 +256,7 @@
     "imgSrc": "/assets/cookies/cookies-cinamon-12.jpeg"
   },
   {
+    "id": 33,
     "dishName": "Cinamon cookies box(16 pieces)",
     "category": "cookies",
     "price": 18.99,
@@ -231,6 +264,7 @@
     "imgSrc": "/assets/cookies/cookies-cinamon-16.jpeg"
   },
   {
+    "id": 34,
     "dishName": "Baguette",
     "category": "bread",
     "price": 1.99,
@@ -238,6 +272,7 @@
     "imgSrc": "/assets/bread/baguette.jpeg"
   },
   {
+    "id": 35,
     "dishName": "Assorted basket of wheat breads (8 pieces)",
     "category": "bread",
     "price": 12.99,
@@ -245,6 +280,7 @@
     "imgSrc": "/assets/bread/basket-8.jpeg"
   },
   {
+    "id": 36,
     "dishName": "Beget bread",
     "category": "bread",
     "price": 1.99,
@@ -252,6 +288,7 @@
     "imgSrc": "/assets/bread/beget.jpeg"
   },
   {
+    "id": 37,
     "dishName": "Crispy Wheat bread",
     "category": "bread",
     "price": 1.99,
@@ -259,6 +296,7 @@
     "imgSrc": "/assets/bread/crispy-bread.jpeg"
   },
   {
+    "id": 38,
     "dishName": "Wheat bread",
     "category": "bread",
     "price": 1.99,
@@ -266,6 +304,7 @@
     "imgSrc": "/assets/bread/wheat-bread.jpeg"
   },
   {
+    "id": 39,
     "dishName": "Crispy yolk bread",
     "category": "bread",
     "price": 1.99,

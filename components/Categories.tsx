@@ -1,16 +1,19 @@
 import { categories } from '@/utils/constants';
+import { setCategory } from '@/utils/redux/category/category.slice';
+import { useAppDispatch } from '@/utils/redux/store';
 import { Category } from '@/utils/types';
 import Image from 'next/image';
 import React, { useState } from 'react';
 
 const Categories = () => {
+  const dispatch = useAppDispatch();
   const [activeCategory, setActiveCategory] = useState(
-    categories.find((category) => category.title === 'Most Popular') ||
-      categories[0]
+    categories.find((category) => category.title === 'All') || categories[0]
   );
 
   const handleCategoryClick = (category: Category) => {
     setActiveCategory(category);
+    dispatch(setCategory(category.title));
   };
 
   return (

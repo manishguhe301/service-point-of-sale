@@ -1,14 +1,11 @@
 import { Category } from "./types";
 
-export const categories : Category[] = [
+export const categories: Category[] = [
   {
     img: "/assets/icons/popular.svg",
-    title: "Most popular",
+    title: "All",
   },
   {
-    img: "/assets/icons/favorite.svg",
-    title: "Favorites",
-  }, {
     img: "/assets/icons/bread.svg",
     title: "Bread"
   }, {
