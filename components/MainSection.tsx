@@ -1,9 +1,11 @@
-import React from 'react'
+import Categories from './Categories';
 
 const MainSection = () => {
   return (
-    <div>MainSection</div>
-  )
-}
+    <div className='w-full bg-[#FFF6EE] h-full-screen-minus-header p-12'>
+      <Categories />
+    </div>
+  );
+};
 
-export default MainSection
+export default MainSection;
