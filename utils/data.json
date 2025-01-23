@@ -1,0 +1,275 @@
+[
+  {
+    "dishName": "Chocolate and cream layered cake portion",
+    "category": "cake",
+    "price": 15.99,
+    "stars": 4,
+    "imgSrc": "/assets/cake/choco-cream-cake-por.jpg"
+  },
+  {
+    "dishName": "Chocolate and cream layered cake",
+    "category": "cake",
+    "price": 20.99,
+    "stars": 4,
+    "imgSrc": "/assets/cake/choco-cream-cake.jpg"
+  },
+  {
+    "dishName": "Chocolate layered cake portion with strawberries",
+    "category": "cake",
+    "price": 18.99,
+    "stars": 5,
+    "imgSrc": "/assets/cake/choco-straw.jpg"
+  },
+  {
+    "dishName": "Peach big cake with fruits and chocolate",
+    "category": "cake",
+    "price": 30.99,
+    "stars": 5,
+    "imgSrc": "/assets/cake/peach.jpg"
+  },
+  {
+    "dishName": "Late art cup",
+    "category": "coffee",
+    "price": 1.99,
+    "stars": 3,
+    "imgSrc": "/assets/coffee/late.jpg"
+  },
+  {
+    "dishName": "Strong americano coffee",
+    "category": "coffee",
+    "price": 2.99,
+    "stars": 4,
+    "imgSrc": "/assets/coffee/americano.jpg"
+  },
+  {
+    "dishName": "Cinnamon late art cup",
+    "category": "coffee",
+    "price": 2.99,
+    "stars": 4,
+    "imgSrc": "/assets/coffee/cinamon.jpg"
+  },
+  {
+    "dishName": "Iced coffee and milk",
+    "category": "coffee",
+    "price": 3.99,
+    "stars": 5,
+    "imgSrc": "/assets/coffee/iced.jpg"
+  },
+  {
+    "dishName": "Box of mixed donuts (5 pieces)",
+    "category": "donuts",
+    "price": 12.99,
+    "stars": 5,
+    "imgSrc": "/assets/donut/box-6.jpg"
+  },
+  {
+    "dishName": "Box of chocolate donuts (8 pieces)",
+    "category": "donuts",
+    "price": 15.99,
+    "stars": 5,
+    "imgSrc": "/assets/donut/box-choco.jpg"
+  },
+  {
+    "dishName": "Spongy donut with chips",
+    "category": "donuts",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/donut/choco.jpg"
+  },
+  {
+    "dishName": "Strawberry donut",
+    "category": "donuts",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/donut/strawberry.jpg"
+  },
+  {
+    "dishName": "Choco custard pie",
+    "category": "custard pie",
+    "price": 2.99,
+    "stars": 4,
+    "imgSrc": "/assets/custard/choco-pie.jpg"
+  },
+  {
+    "dishName": "Pineapple custard pie",
+    "category": "custard pie",
+    "price": 2.99,
+    "stars": 4,
+    "imgSrc": "/assets/custard/pineapple-pie.jpg"
+  },
+  {
+    "dishName": "Entire pineapple pie",
+    "category": "custard pie",
+    "price": 15.99,
+    "stars": 5,
+    "imgSrc": "/assets/custard/pineapple.jpg"
+  },
+  {
+    "dishName": "Fluffy vanilla and red fruits pie portion",
+    "category": "custard pie",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/custard/vanilla.jpg"
+  },
+  {
+    "dishName": "Creamy berries pie portion",
+    "category": "custard pie",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/custard/red-pie.jpg"
+  },
+  {
+    "dishName": "Box of chocolate cupcakes with cherries",
+    "category": "cupcakes",
+    "price": 15.99,
+    "stars": 5,
+    "imgSrc": "/assets/cupcake/choco-box.jpg"
+  },
+  {
+    "dishName": "Box of mixed cupcakes with cherries",
+    "category": "cupcakes",
+    "price": 16.99,
+    "stars": 5,
+    "imgSrc": "/assets/cupcake/box.jpg"
+  },
+  {
+    "dishName": "Mini chocolate cupcakes with cream",
+    "category": "cupcakes",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/cupcake/mini-choco.jpg"
+  },
+  {
+    "dishName": "Chocolate cupcakes with cream and fruits",
+    "category": "cupcakes",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/cupcake/choco.jpg"
+  },
+  {
+    "dishName": "Vanilla cupcakes with cream",
+    "category": "cupcakes",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/cupcake/vanilla.jpg"
+  },
+  {
+    "dishName": "Croissant with red fruits",
+    "category": "croissant",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/croissant/red.jpg"
+  },
+  {
+    "dishName": "Chocolate croissant",
+    "category": "croissant",
+    "price": 2.99,
+    "stars": 4,
+    "imgSrc": "/assets/croissant/choco.jpg"
+  },
+  {
+    "dishName": "Jam croissant sandwich",
+    "category": "croissant",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/croissant/jam.jpg"
+  },
+  {
+    "dishName": "Plain croissant",
+    "category": "croissant",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/croissant/plain.jpg"
+  },
+  {
+    "dishName": "Raisin croissant",
+    "category": "croissant",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/croissant/raisin.jpg"
+  },
+  {
+    "dishName": "Macaron box double stuffed(8 pieces)",
+    "category": "cookies",
+    "price": 15.99,
+    "stars": 5,
+    "imgSrc": "/assets/cookies/cookies-8-box.jpeg"
+  },
+  {
+    "dishName": "Macaron box single stuffed(12 pieces)",
+    "category": "cookies",
+    "price": 12.99,
+    "stars": 5,
+    "imgSrc": "/assets/cookies/cookies-12-box.jpeg"
+  },
+  {
+    "dishName": "Cookies with chocolate chips",
+    "category": "cookies",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/cookies/cookies-choco.jpeg"
+  },
+  {
+    "dishName": "Cinamon cookies box(8 pieces)",
+    "category": "cookies",
+    "price": 12.99,
+    "stars": 5,
+    "imgSrc": "/assets/cookies/cookies-cinamon-8.jpeg"
+  },
+  {
+    "dishName": "Cinamon cookies box(12 pieces)",
+    "category": "cookies",
+    "price": 15.99,
+    "stars": 5,
+    "imgSrc": "/assets/cookies/cookies-cinamon-12.jpeg"
+  },
+  {
+    "dishName": "Cinamon cookies box(16 pieces)",
+    "category": "cookies",
+    "price": 18.99,
+    "stars": 5,
+    "imgSrc": "/assets/cookies/cookies-cinamon-16.jpeg"
+  },
+  {
+    "dishName": "Baguette",
+    "category": "bread",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/bread/baguette.jpeg"
+  },
+  {
+    "dishName": "Assorted basket of wheat breads (8 pieces)",
+    "category": "bread",
+    "price": 12.99,
+    "stars": 5,
+    "imgSrc": "/assets/bread/basket-8.jpeg"
+  },
+  {
+    "dishName": "Beget bread",
+    "category": "bread",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/bread/beget.jpeg"
+  },
+  {
+    "dishName": "Crispy Wheat bread",
+    "category": "bread",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/bread/crispy-bread.jpeg"
+  },
+  {
+    "dishName": "Wheat bread",
+    "category": "bread",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/bread/wheat-bread.jpeg"
+  },
+  {
+    "dishName": "Crispy yolk bread",
+    "category": "bread",
+    "price": 1.99,
+    "stars": 4,
+    "imgSrc": "/assets/bread/yolk-bread.jpeg"
+  }
+]
