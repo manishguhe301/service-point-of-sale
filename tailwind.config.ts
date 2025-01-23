@@ -12,6 +12,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      boxShadow: {
+        'custom-orange': '0 10px 10px 0 #FBA65140',
+        'custom-orange-l3': '0 0 15px 0 rgba(251, 166, 81, 0.5)',
+      },
+      height: {
+        'full-screen-minus-header': 'calc(100vh - 60px)',
+      }
     },
   },
   plugins: [],

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className='h-[60px] px-16 py-4 bg-neutral-50 flex items-center justify-between max-sm:px-8 '>
+    <div className='h-[60px] px-16 py-4 bg-[#fff] flex items-center justify-between max-sm:px-8 '>
       <Image
         src='/assets/logo.svg'
         alt='logo'
