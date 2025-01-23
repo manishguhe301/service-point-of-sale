@@ -36,7 +36,7 @@ const CartItemCard = ({
           </div>
         </div>
       </div>
-      <div className='flex gap-2 flex-col pr-4 max-sm:pr-3'>
+      <div className='flex gap-2 flex-col items-end pr-4 max-sm:pr-3'>
         <p className='font-medium text-base text-[#1C140C]'>
           ${(cartItem.price * counter).toFixed(2)}
         </p>
