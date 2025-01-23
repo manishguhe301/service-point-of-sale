@@ -4,6 +4,7 @@ export type Dish = {
   price: number,
   stars: number,
   imgSrc: string,
+  id: string
 };
 
 export type Category = {
