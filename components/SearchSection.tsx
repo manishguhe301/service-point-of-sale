@@ -12,8 +12,8 @@ const SearchSection = ({
   filteredData: Dish[];
 }) => {
   return (
-    <div className='flex justify-between items-center pb-6'>
-      <div className='relative w-1/2'>
+    <div className='flex justify-between items-center pb-6 max-sm:flex-col gap-4'>
+      <div className='relative w-1/2 max-sm:w-full'>
         <Image
           src='/assets/icons/search.svg'
           alt='search'
@@ -29,7 +29,7 @@ const SearchSection = ({
           onChange={(e) => setSearch(e.target.value)}
         />
       </div>
-      <p className=' text-sm font-medium text-[#1C140C]'>
+      <p className=' text-sm font-medium text-[#1C140C] max-sm:hidden'>
         <span className='mr-1 font-bold text-[#1C140C]'>
           {filteredData.length}
         </span>

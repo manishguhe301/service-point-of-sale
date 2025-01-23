@@ -62,8 +62,12 @@ const MainSection = () => {
     );
   }, [search, data]);
 
-  return (
-    <div className='w-full bg-[#FFF6EE]  px-14 py-6 '>
+  return data.length === 0 && loading ? (
+    <div className='h-screen bg-[#FFF6EE] w-full flex justify-center items-center'>
+      <Spinner />
+    </div>
+  ) : (
+    <div className='w-full bg-[#FFF6EE]  px-14 py-6  max-sm:px-4 '>
       <div className='' ref={ref}>
         <SearchSection
           search={search}
@@ -72,18 +76,20 @@ const MainSection = () => {
         />
       </div>
       <Categories />
-      <div className='py-10 '>
-        {data.length === 0 && loading ? (
-          <div className='h-[60vh] w-full flex justify-center items-center'>
-            <Spinner />
-          </div>
-        ) : (
-          <div className='grid grid-cols-3 gap-6'>
-            {filteredData.map((dish: Dish) => (
+      <div className='py-10'>
+        <div className='grid grid-cols-3 gap-6 max-md:grid-cols-2 max-sm:grid-cols-1'>
+          {filteredData.length > 0 ? (
+            filteredData.map((dish: Dish) => (
               <ItemCard key={dish.dishName} dish={dish} />
-            ))}
-          </div>
-        )}
+            ))
+          ) : (
+            <div className='h-screen'>
+              <h1 className='text-2xl font-bold text-[#1C140C]'>
+                No items found
+              </h1>
+            </div>
+          )}
+        </div>
       </div>
       <div className='relative '>
         <div

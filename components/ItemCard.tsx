@@ -1,8 +1,12 @@
+import { addToCart, removeFromCart } from '@/utils/redux/cart/cart.slice';
+import { RootState, useAppDispatch, useAppSelector } from '@/utils/redux/store';
 import { Dish } from '@/utils/types';
 import Image from 'next/image';
 import React from 'react';
 
 const ItemCard = ({ dish }: { dish: Dish }) => {
+  const dispatch = useAppDispatch();
+  const { cart } = useAppSelector((state: RootState) => state.cartSlice);
   return (
     <div className=' max-h-[354px]  bg-white shadow-custom-orange-l2 rounded-[30px]'>
       <div className='relative'>
@@ -21,10 +25,23 @@ const ItemCard = ({ dish }: { dish: Dish }) => {
           height={100}
           className='rounded-t-[30px]  w-full h-[280px] object-cover'
         />
-        <button className='bg-[#FFFFFF] py-2 px-5 flex items-center justify-center text-[#1C140C] font-bold gap-3 absolute bottom-2 right-2 rounded-[30px]'>
-          Add to Cart
+        <button
+          className='bg-[#FFFFFF] py-2 px-5 flex items-center justify-center text-[#1C140C] font-bold gap-3 absolute bottom-2 right-2 rounded-[30px]'
+          onClick={() =>
+            cart.some((item: Dish) => item.id === dish.id)
+              ? dispatch(removeFromCart(dish.id))
+              : dispatch(addToCart(dish))
+          }
+        >
+          {cart.some((item: Dish) => item.id === dish.id)
+            ? 'Remove from Cart'
+            : 'Add to Cart'}
           <Image
-            src='/assets/icons/cart.svg'
+            src={
+              cart.some((item: Dish) => item.id === dish.id)
+                ? '/assets/icons/remove.svg'
+                : '/assets/icons/cart.svg'
+            }
             alt='cart'
             width={24}
             height={24}
