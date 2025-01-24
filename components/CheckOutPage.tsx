@@ -1,5 +1,6 @@
 'use client';
-import { RootState, useAppSelector } from '@/utils/redux/store';
+import { clearCart } from '@/utils/redux/cart/cart.slice';
+import { RootState, useAppDispatch, useAppSelector } from '@/utils/redux/store';
 import { Dish } from '@/utils/types';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -13,7 +14,7 @@ const CheckOutPage = () => {
     cardNumber: '',
     email: '',
   });
-
+  const dispatch = useAppDispatch();
   useEffect(() => {
     if (cart.length === 0) {
       window.location.replace('/');
@@ -60,7 +61,7 @@ const CheckOutPage = () => {
 
       <div className='relative z-10 text-white flex justify-center items-center w-[500px] mx-auto h-full max-sm:w-[90%] '>
         <div className='absolute bg-[#FFF6EE] h-[90%]    w-full shadow-custom-orange-l3 rounded-[40px] px-5 py-7 max-sm:px-2 max-sm:py-4'>
-          <p className='absolute left-[30%] top-10 transform font-light   text-[#704A24] text-center text-xs py-2 px-4 rounded-full'>
+          <p className='absolute left-[30%] top-10 transform font-light   text-[#704A24] text-center text-xs py-2 px-4 rounded-full hidden'>
             Demo card image
           </p>
           <Image
@@ -127,6 +128,9 @@ const CheckOutPage = () => {
               ? 'hidden'
               : 'flex'
           } transition-all duration-300 ease-in-out`}
+          onClick={() => {
+            dispatch(clearCart());
+          }}
         >
           {' '}
           <Link
