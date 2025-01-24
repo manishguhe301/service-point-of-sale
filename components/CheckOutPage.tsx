@@ -118,12 +118,20 @@ const CheckOutPage = () => {
             </div>
           </form>
         </div>
-        <button className={`w-full absolute bottom-16 self-center flex justify-center items-center max-sm:bottom-12 max-sm:w-full ${!formData.firstName || !formData.lastName || !formData.email || !formData.cardNumber ? 'hidden' : 'flex'} transition-all duration-300 ease-in-out`}>
+        <button
+          className={`w-full absolute bottom-16 self-center flex justify-center items-center max-sm:bottom-12 max-sm:w-full ${
+            !formData.firstName ||
+            !formData.lastName ||
+            !formData.email ||
+            !formData.cardNumber
+              ? 'hidden'
+              : 'flex'
+          } transition-all duration-300 ease-in-out`}
+        >
           {' '}
           <Link
             href={{
               pathname: '/order-confirmation',
-              query: formData,
             }}
             className='py-5 px-20  text-[#1C140C] font-bold flex justify-center  items-center gap-2 bg-[#FBA651] rounded-full absolute bottom-6'
           >
