@@ -11,7 +11,7 @@ const Header = () => {
     <div className='h-[60px] px-16 py-4 bg-[#fff] flex items-center justify-between max-sm:px-8 '>
       <Link href='/'>
         <Image
-          src='/assets/logo.svg'
+          src='/logo.svg'
           alt='logo'
           width={60}
           height={60}
