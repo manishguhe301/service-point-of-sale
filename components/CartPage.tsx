@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import CartItemCard from './CartItemCard';
 import { Dish } from '@/utils/types';
+import Link from 'next/link';
 
 const CartPage = () => {
   const { cart } = useAppSelector((state: RootState) => state.cartSlice);
@@ -62,11 +63,11 @@ const CartPage = () => {
                 })}
               </div>
             </div>
-            <button className='py-5 px-20  text-[#1C140C] font-bold flex justify-center  items-center gap-2 bg-[#FBA651] rounded-full absolute bottom-6'>
+            <Link href='/checkout' className='py-5 px-20  text-[#1C140C] font-bold flex justify-center  items-center gap-2 bg-[#FBA651] rounded-full absolute bottom-6'>
               <p>Continue to Checkout</p>
               <span>|</span>
               <p>${totalPrice.toFixed(2)}</p>
-            </button>
+            </Link>
           </div>
         </>
       )}
