@@ -42,11 +42,12 @@ const CartItemCard = ({
         </p>
         <div className='flex items-center gap-3 py-1 px-3 border border-[#1C140C] rounded-xl'>
           <span
-            onClick={() => counter > 1 && onCounterChange(counter - 1)}
+            onClick={() => onCounterChange(Math.max(counter - 1, 1))}
             className='cursor-pointer'
           >
             -
           </span>
+
           <span>{counter}</span>
           <span
             onClick={() => onCounterChange(counter + 1)}

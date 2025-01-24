@@ -16,7 +16,7 @@ const CheckOutPage = () => {
 
   useEffect(() => {
     if (cart.length === 0) {
-      window.location.href = '/';
+      window.location.replace('/');
     }
   }, []);
 

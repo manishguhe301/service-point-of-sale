@@ -27,11 +27,10 @@ const ItemCard = ({ dish }: { dish: Dish }) => {
         />
         <button
           className='bg-[#FFFFFF] py-2 px-5 flex items-center justify-center text-[#1C140C] font-bold gap-3 absolute bottom-2 right-2 rounded-[30px]'
-          onClick={() =>
-            cart.some((item: Dish) => item.id === dish.id)
-              ? dispatch(removeFromCart(dish.id))
-              : dispatch(addToCart(dish))
-          }
+          onClick={() => {
+            const isInCart = cart.some((item: Dish) => item.id === dish.id);
+            dispatch(isInCart ? removeFromCart(dish.id) : addToCart(dish));
+          }}
         >
           {cart.some((item: Dish) => item.id === dish.id)
             ? 'Remove from Cart'

@@ -19,31 +19,32 @@ const Categories = () => {
   return (
     <>
       <div className='flex items-center gap-4 overflow-x-scroll no-scrollbar max-md:hidden'>
-        {categories.map((category) => (
-          <div
-            key={category.title}
-            className={`flex items-center gap-1 cursor-pointer pr-2 py-1  hover:border-[#996531] hover:border-b-2 transition duration-300 ease-in-out ${
-              activeCategory === category ? 'border-[#996531] border-b-2' : ''
-            }`}
-            onClick={() => handleCategoryClick(category)}
-          >
-            <Image
-              src={category.img}
-              alt={category.title}
-              width={24}
-              height={24}
-            />
-            <p
-              className={`text-sm font-medium text-[#1C140C] ${
-                activeCategory === category
-                  ? 'text-[#996531] font-semibold'
-                  : ''
+        {categories.map((category) => {
+          const isActive = activeCategory.title === category.title;
+          return (
+            <div
+              key={category.title}
+              className={`flex items-center gap-1 cursor-pointer pr-2 py-1 hover:border-[#996531] hover:border-b-2 transition duration-300 ease-in-out ${
+                isActive ? 'border-[#996531] border-b-2' : ''
               }`}
+              onClick={() => handleCategoryClick(category)}
             >
-              {category.title}
-            </p>
-          </div>
-        ))}
+              <Image
+                src={category.img}
+                alt={category.title}
+                width={24}
+                height={24}
+              />
+              <p
+                className={`text-sm font-medium text-[#1C140C] ${
+                  isActive ? 'text-[#996531] font-semibold' : ''
+                }`}
+              >
+                {category.title}
+              </p>
+            </div>
+          );
+        })}
       </div>
       <div className='md:hidden'>
         <select

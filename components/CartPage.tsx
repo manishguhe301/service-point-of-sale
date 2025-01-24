@@ -63,7 +63,10 @@ const CartPage = () => {
                 })}
               </div>
             </div>
-            <Link href='/checkout' className='py-5 px-20  text-[#1C140C] font-bold flex justify-center  items-center gap-2 bg-[#FBA651] rounded-full absolute bottom-6'>
+            <Link
+              href='/checkout'
+              className='py-5 px-20  text-[#1C140C] font-bold flex justify-center  items-center gap-2 bg-[#FBA651] rounded-full absolute bottom-6'
+            >
               <p>Continue to Checkout</p>
               <span>|</span>
               <p>${totalPrice.toFixed(2)}</p>

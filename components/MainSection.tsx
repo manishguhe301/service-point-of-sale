@@ -23,17 +23,18 @@ const MainSection = () => {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    dispatch(
-      setFilteredData(
-        category !== 'All'
-          ? data.filter(
-              (dish: Dish) =>
-                dish.category.toLowerCase() === category.toLowerCase()
-            )
-          : data
-      )
-    );
-  }, [category, data]);
+    const filtered = data.filter((dish: Dish) => {
+      const matchesCategory =
+        category === 'All' ||
+        dish.category.toLowerCase() === category.toLowerCase();
+      const matchesSearch = dish.dishName
+        .toLowerCase()
+        .includes(search.toLowerCase());
+      return matchesCategory && matchesSearch;
+    });
+
+    dispatch(setFilteredData(filtered));
+  }, [category, search, data]);
 
   useEffect(() => {
     const fetchData = async () => {

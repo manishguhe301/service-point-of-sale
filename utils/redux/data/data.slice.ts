@@ -1,12 +1,17 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { Dish } from "@/utils/types";
+
+type DataState = {
+  filteredData: Dish[];
+};
 
 export const dataSlice = createSlice({
   name: "data",
   initialState: {
     filteredData: [],
-  },
+  } as DataState,
   reducers: {
-    setFilteredData: (state, action) => {
+    setFilteredData: (state, action: PayloadAction<Dish[]>) => {
       state.filteredData = action.payload;
     },
   },
